@@ -1,0 +1,84 @@
+body {
+
+    /* background-image: url(https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat; */
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+a:hover {
+    color: deepskyblue;
+}
+
+a:active {
+    color: red;
+}
+
+a :visited {
+    color: purple;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+#about,
+#contact-us {
+    height: 100vh;
+}
+
+.font {
+    background-image: url(https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    font-style: normal;
+    font-size: 10px;
+    background-color: bisque;
+    border: 1px black;
+    padding: 5px 5px;
+    position: fixed;
+    top: 0;
+left: 0;
+right: 0;
+}
+
+.smartTravel {
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+    border: 1px solid white;
+    padding-left: 2px;
+    padding-right: 1px;
+    background-color: whitesmoke;
+    font-style: normal;
+    font-size: 10.5px;
+    /* } 
+            .header{
+                /* background-color: bisque; */
+    /* border: 1px  black; 
+                margin: 3px;
+                padding-top: 15px;
+                padding-bottom: -0.300px; */
+}
+
+
+/* .home{
+                border: 1px solid white; 
+                padding-left: 3px;
+                padding-right: 3px;
+                background-color: white
+                
+            }   */
+
+.navoption {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
